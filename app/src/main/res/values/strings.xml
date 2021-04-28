@@ -1,0 +1,71 @@
+<resources>
+    <string name="name">Vehicle Inspection </string>
+    <string name="action_settings">Settings</string>
+    <string name="Username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register here</string>
+    <string name="vehicleNo">Vehicle Number*</string>
+    <string name="PSRName">PSR Name*</string>
+    <string name="CellNumber">Cell Number*</string>
+    <string name="startPlace">Start Place</string>
+    <string name="endPlace">End Place</string>
+    <string name="licenseNo">License No*</string>
+    <string name="TDMASMName">TDM/ASM Name*</string>
+    <string name="TdmAsm">TDM/ASM*</string>
+    <string name="Distributor">Distributor*</string>
+    <string name="back">Back</string>
+    <string name="submit">Submit</string>
+    <string name="invalidCredentials">Invalid Credentials</string>
+    <string name="saveVehicle">Vehicle Registered Locally</string>
+    <string name="remarks">Remarks*</string>
+    <string name="remarksError">Please Enter the Remark!!</string>
+    <string name="validity">Validity of License*</string>
+    <string name="HelmetCondition">Is helmet Condition good*</string>
+    <string name="ValidRC">Valid RC*</string>
+    <string name="ValidInsurance">Valid insurance*</string>
+    <string name="PUCCertificate">Valid PUC*</string>
+    <string name="drivinglicense">Valid Driving license*</string>
+    <string name="FRONTTYRES">FRONT TYRES(2mm) are good*</string>
+    <string name="REARTYRES">REAR TYRES(1.5mm) are good*</string>
+    <string name="SpareWheel">Spare Wheel(1.5mm) is available*</string>
+    <string name="WheelNuts">Wheel Nuts with bolts*</string>
+    <string name="CBrake">Condition of Brake is good*</string>
+    <string name="CLight">Condition of Light is good*</string>
+    <string name="RearviewMirrors">Rearview Mirrors are good*</string>
+    <string name="CSideIndicators">Condition is good of Side Indicators*</string>
+    <string name="remark">Remarks</string>
+    <string name="imageError">Please capture image</string>
+    <string name="HornWorking">Horn is Working*</string>
+    <string name="steeringwheelplay">steering wheel play*</string>
+
+    <string name="cabindoorworking">Cabin door is working*</string>
+    <string name="vehiclebodycondition">Vehicle body condition is good*</string>
+
+    <string name="wipersbladeworking">Wipers blade is working*</string>
+    <string name="selfstarterBTNrunning">Self starter BTN running*</string>
+
+    <string name="sideindicators">Side indicators and its sound audible from 30 mtr*</string>
+
+    <string name="numberplateview">Number plate view*</string>
+    <string name="footrestcondition">Footrest condition is good*</string>
+    <string name="rupg">Real under run protection guard(RUPG) is available*</string>
+    <string name="supg">Side under run protection guard(SUPG) is available*</string>
+    <string name="cleanerpresent">Helper/cleaner present*</string>
+    <string name="failsafebrakecondition">Fail safe brake condition is good*</string>
+    <string name="frontglasscondition">Front glass condition is good*</string>
+    <string name="checkbreatheanalyser">Check breathe analyser test done*</string>
+    <string name="safetyshoesPPE">Driver/Cleaner wearing safety shoes, PPE*</string>
+    <string name="wheelschockavailable">Wheels chock available*</string>
+
+    <string name="toolKit">Availability of Tool Kit*</string>
+    <string name="availabilityoffirstaidbox">Availability of first aid box*</string>
+
+
+
+
+
+
+
+
+</resources>

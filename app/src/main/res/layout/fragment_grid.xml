@@ -1,0 +1,221 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layoutInspection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingBottom="15dp"
+                android:layout_marginLeft="50dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/layer_list_3"/>
+
+                <TextView
+                    android:id="@+id/txtStartInspection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Inspection"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layoutLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/imglogout"
+                    android:layout_width="55sp"
+                    android:layout_height="55sp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logout"/>
+
+                <TextView
+                    android:id="@+id/logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Logout"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_grey_horizontal_divider"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/layoutUpload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingLeft="8dp"
+                android:paddingBottom="15dp"
+                android:visibility="invisible">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/layer_list_4"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Upload"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+
+            <!--  <LinearLayout
+                  android:id="@+id/layoutSync"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="0.5"
+                  android:orientation="vertical"
+                  android:paddingTop="20dp"
+         >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:src="@drawable/layer_list_2"/>
+
+                  <TextView
+                      android:id="@+id/txtSync"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal"
+                      android:text="Sync"
+                      android:textStyle="bold"
+                      android:textColor="@android:color/black"
+                      android:textSize="15dp"/>
+              </LinearLayout>
+  -->
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/color_grey_horizontal_divider"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            >
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingLeft="8dp"
+                android:paddingBottom="15dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/layer_list_4"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Upload"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_grey_horizontal_divider" />
+
+            <LinearLayout
+                android:id="@+id/layoutPending"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:visibility="invisible">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/layer_list_1"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Pending"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/color_grey_horizontal_divider"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</ScrollView>
+
+

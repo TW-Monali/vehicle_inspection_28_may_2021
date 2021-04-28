@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+    compileSdkVersion 29
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        //applicationId "com.melayer.vehicleftpnew"
+        applicationId "com.tw.vehicleinspection"
+        minSdkVersion 17
+        targetSdkVersion 29
+        versionCode 10
+        versionName "TWAVICV 2.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies
+        {
+            //implementation 'androidx.ads:ads-identifier:1.0.0-alpha04'
+
+
+// UPDATED LIB FROM THE GOOGLE PLAY
+            compile 'org.jsoup:jsoup:1.8.3'
+            compile 'com.sun.mail:android-mail:1.5.5'
+            compile 'com.sun.mail:android-activation:1.5.5'
+            //compile 'com.sun.mail:android-additionnal:1.5.5'
+            compile 'com.android.support:appcompat-v7:25.0.0'
+            compile 'com.android.support:design:25.0.0'
+            compile 'com.mcxiaoke.volley:library:1.0.19'
+            compile 'org.apache.httpcomponents:httpmime:4.2.3'
+            compile 'com.fasterxml.jackson.core:jackson-databind:2.2.3'
+            compile 'com.fasterxml.jackson.core:jackson-core:2.2.3'
+            compile 'com.fasterxml.jackson.core:jackson-annotations:2.2.3'
+            compile 'com.squareup.okhttp3:okhttp:3.0.1'
+            compile 'com.android.support.constraint:constraint-layout:1.0.2'
+            testCompile 'junit:junit:4.12'
+//            compile files('libs/activation(1).jar')
+//            compile files('libs/additionnal.jar')
+//            compile files('libs/mail.jar')
+           // compile files('/home/twtech/Documents/Android pgms/Androidproject/transworldteam-transworldcrm_android_vehicleftp2-aa7a8125b3f1..p/.idea/libraries/activation(1).jar')
+            //compile files('/home/twtech/Documents/Android pgms/Androidproject/transworldteam-transworldcrm_android_vehicleftp2-aa7a8125b3f1..p/.idea/libraries/additionnal.jar')
+           // compile files('/home/twtech/Documents/Android pgms/Androidproject/transworldteam-transworldcrm_android_vehicleftp2-aa7a8125b3f1..p/.idea/libraries/mail.jar')
+        }

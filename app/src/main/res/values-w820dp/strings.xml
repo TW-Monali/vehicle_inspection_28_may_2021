@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Transworld</string>
+    <string name="Username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="vehicleNo">Vehicle Number*</string>
+    <string name="PSRName">PSR Name*</string>
+    <string name="CellNumber">Cell Number*</string>
+    <string name="startPlace">Start Place</string>
+    <string name="endPlace">End Place</string>
+    <string name="licenseNo">License No*</string>
+    <string name="TDMASMName">TDM/ASM Name*</string>
+    <string name="TdmAsm">TDM/ASM*</string>
+    <string name="Distributor">Distributor*</string>
+    <string name="vehicleno">Vehicle Number</string>
+    <string name="back">Back</string>
+    <string name="submit">Submit</string>
+    <string name="invalidCredentials">Invalid Credentials</string>
+    <string name="saveVehicle">Vehicle Registered Locally</string>
+    <string name="remarks">Remarks*</string>
+    <string name="remarksError">Please Enter the Remark!!</string>
+    <string name="validity">Validity of License*</string>
+    <string name="HelmetCondition">Helmet Condition*</string>
+    <string name="ValidRC">Valid RC*</string>
+    <string name="ValidInsurance">Valid Insurance*</string>
+    <string name="PUCCertificate">PUC Certificate*</string>
+    <string name="FRONTTYRES">FRONT TYRES(2mm)*</string>
+    <string name="REARTYRES">REAR TYRES(1.5mm)*</string>
+    <string name="SpareWheel">Spare Wheel(1.5mm)*</string>
+    <string name="WheelNuts">Wheel Nuts with bolts*</string>
+    <string name="CBrake">Condition of Brake*</string>
+    <string name="CLight">Condition of Light*</string>
+    <string name="RearviewMirrors">Rearview Mirrors*</string>
+    <string name="CSideIndicators">Condition of Side Indicators*</string>
+    <string name="remark">Remarks</string>
+    <string name="imageError">Please capture image</string>
+</resources>

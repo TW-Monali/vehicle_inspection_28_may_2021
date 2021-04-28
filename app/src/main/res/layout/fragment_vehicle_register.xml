@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+
+            <EditText
+                android:id="@+id/edtVehicleNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:hint="@string/vehicleNo"
+                android:inputType="textCapCharacters"
+                android:maxLength="15"
+                android:paddingTop="15sp"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 "
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/hint"
+                android:theme="@style/Theme.App.Base"/>
+
+
+            <!--<ImageView-->
+            <!--android:id="@+id/imgVehicleNo1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_weight="0.2"-->
+            <!--android:foreground="@drawable/ripple_button_circle"-->
+            <!--android:src="@drawable/layer_shape_attachment"-->
+            <!--/>-->
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtPsrName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/PSRName"
+            android:inputType="text"
+            android:paddingTop="15sp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/hint"
+            android:theme="@style/Theme.App.Base"/>
+
+
+        <EditText
+            android:id="@+id/edtCellNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/CellNumber"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingTop="15sp"
+            android:singleLine="true"
+            android:textColorHint="@color/hint"
+            android:theme="@style/Theme.App.Base"/>
+
+        <EditText
+            android:id="@+id/edtStartPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:hint="@string/startPlace"
+            android:inputType="text"
+            android:paddingTop="15sp"
+            android:singleLine="true"
+            android:textColorHint="@color/hint"
+            android:theme="@style/Theme.App.Base"/>
+
+        <EditText
+            android:id="@+id/edtEndPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:hint="@string/endPlace"
+            android:inputType="text"
+            android:paddingTop="15sp"
+            android:singleLine="true"
+            android:textColorHint="@color/hint"
+            android:theme="@style/Theme.App.Base"/>
+
+        <EditText
+            android:id="@+id/edtLicenseNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/licenseNo"
+            android:inputType="text"
+            android:paddingTop="15sp"
+            android:singleLine="true"
+            android:textColorHint="@color/hint"
+            android:theme="@style/Theme.App.Base"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_background">
+            <TextView
+                android:id="@+id/textLicenseValidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:padding="5dp"
+                android:hint="@string/validity"
+                android:textSize="17sp"
+                android:textColorHint="@color/hint"
+                android:textColor="@color/hint"
+            />
+            <ImageView
+                android:id="@+id/imageViewLicenseValidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/layer_shape_calendar"/>
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/edtTdmAsmName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 "
+            android:hint="@string/TDMASMName"
+            android:inputType="text"
+            android:maxLength="50"
+            android:paddingTop="15sp"
+            android:singleLine="true"
+            android:textColorHint="@color/hint"
+            android:theme="@style/Theme.App.Base"/>
+
+        <EditText
+            android:id="@+id/edtTdmAsm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TdmAsm"
+            android:inputType="text"
+            android:paddingTop="15sp"
+            android:singleLine="true"
+            android:textColorHint="@color/hint"
+            android:theme="@style/Theme.App.Base"/>
+
+        <EditText
+            android:id="@+id/edtDistributor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 "
+            android:hint="@string/Distributor"
+            android:inputType="text"
+            android:paddingTop="15sp"
+            android:singleLine="true"
+            android:textColorHint="@color/hint"
+            android:theme="@style/Theme.App.Base"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Save"
+            android:textColor="@color/primary_light"
+            android:background="@drawable/layer_list_button"
+            android:foreground="@drawable/ripple_button"
+        />
+
+    </LinearLayout>
+
+</ScrollView>

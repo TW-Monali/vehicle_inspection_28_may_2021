@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tab_login"
+            android:layout_marginTop="90dp">
+
+
+
+    <LinearLayout
+        android:id="@+id/layoutMiddle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingLeft="25sp"
+        android:paddingRight="25sp"
+    >
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/fvlogo"/>
+
+        <EditText
+            android:id="@+id/edtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Username"
+            android:inputType="text"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/primary_dark"
+            android:textColorHint="@color/hint"
+            android:theme="@style/Theme.App.Base"/>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/primary_dark"
+            android:textColorHint="@color/hint"
+            android:theme="@style/Theme.App.Base" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40sp"
+            android:background="@drawable/layer_list_button"
+            android:foreground="@drawable/ripple_button"
+            android:gravity="center"
+            android:text="@string/login_button"
+            android:textColor="@color/primary_light"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you are new user click on register here"
+            android:textColor="@color/card1"
+            android:textSize="17dp"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btreg"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30sp"
+            android:background="@drawable/layer_list_button"
+            android:foreground="@drawable/ripple_button"
+            android:gravity="center"
+            android:text="@string/register_button"
+            android:textColor="@color/primary_light"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
